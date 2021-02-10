@@ -8,6 +8,9 @@
 - **[Questions](#Questions)**
 
 # Description
+
+![Scratch Note App](./public/images/Sharing-img.jpg)
+
 The note application allows a user to sign-up or sign-In and save notes with file attachments. Sign-up and sign-in are controlled by AWS (Amazon Web Services) Cognito User Pools so users can log-in with their email address. AWS-Amplify is used for user authorization and API connection to backend serverless stack. Notes are saved in AWS DynamoDB and any file attachments are stored in AWS S3 Buckets. The serverless stack repo is found here https://github.com/jaredseefried/serverless-api-to-aws 
 
  ### Deployed Site @ https://my-serverless-note-app-to-aws.netlify.app/
